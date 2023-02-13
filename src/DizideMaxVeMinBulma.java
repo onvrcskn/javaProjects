@@ -6,9 +6,7 @@ public class DizideMaxVeMinBulma {
         System.out.println("Bi sayı giriniz : ");
         Scanner tara = new Scanner(System.in);
         sayi = tara.nextInt();
-
         int[] list = {15,12,788,1,-1,-778,2,0};
-
         int min = sayi;
         int max = sayi;
         int temp;
@@ -35,9 +33,7 @@ public class DizideMaxVeMinBulma {
                 }
             }
         }
-
         System.out.println(sayi+" Sayısına En Yakın Minimum Değer " + min);
         System.out.println(sayi+" Sayısına En Yakın Maximum Değer " + max);
-
     }
 }
